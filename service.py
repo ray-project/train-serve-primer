@@ -18,5 +18,5 @@ class Chat:
     def get_response(self, message: str) -> str:
         return self._msg + message
 
-Chat.bind(msg="Yes... ")
+entrypoint = Chat.bind(msg="Yes... ")
 
