@@ -1,0 +1,6 @@
+name: service-demo
+cluster_env: ray-serve-arize:2
+ray_serve_config:
+  import_path: 3-llm-chat:entrypoint
+  runtime_env:
+    working_dir: .

@@ -1,0 +1,6 @@
+name: service-demo
+cluster_env: tf-1:5
+ray_serve_config:
+  import_path: 1-hello-world:entrypoint
+  runtime_env:
+    working_dir: .
